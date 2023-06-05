@@ -1,0 +1,113 @@
+a {
+    text-decoration: none;
+    color: white;
+   }
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 24px;
+    height: 22px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #ffffff;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #c0b8b8;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #15361c;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    overflow: hidden !important; /* important sinon il se met en auto et la barre de difilement apparait */
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .bm-cross-button {
+    right:0;
+    left:8px !important;
+    width:32px !important;
+    top : 14px !important;
+
+  }
+.bm-item-list {
+    text-align:left;
+    font-family: "Roboto Medium","Arial",sans-serif ;
+    font-size: 1.4rem ;
+    text-overflow: ellipsis;
+}
+#creator {
+  margin-top:10px;
+}
+.menu-item {
+    margin-bottom:5px;
+    margin-top:5px;
+    font-size: 21px;
+}
+.logomenu {
+  position: absolute;
+  font-size: 110px;
+  top: -15px;
+  left: 150px;
+}
+.menu-item-top {
+    font-weight:600;
+    text-align:left;
+    font-family: "Roboto Medium","Arial",sans-serif ;
+    font-size: 1.4rem ;
+    text-overflow: ellipsis;
+}
+.separation {
+    padding-top :1px;
+    padding-bottom:1px;
+}
+.icone {
+  margin-right:20px;
+}
