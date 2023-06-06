@@ -1,12 +1,12 @@
-import './Style/App.css';
+import './Styles/App.css';
 import Navbar from './Components/Navbar';
-import Searchbar from './Components/Searchbar'
 import BlocVideo from './Components/BlocVideo';
+import Header from './Components/Header';
 function App() {
   return (
     <div className="App">
+      <Header className="top"/>
       <Navbar className="menu"/>
-      <Searchbar className="search"/>
       <BlocVideo className="video"/>
     </div>
   );

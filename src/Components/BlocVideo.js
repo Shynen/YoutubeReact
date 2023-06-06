@@ -1,11 +1,15 @@
 import React from 'react'
-import '../Style/blocVideo.css'
+import '../Styles/blocVideo.css'
+import NavRight from './NavRight';
 
 const blocVideo = () => {
     return(
-        <div className='video'>
-
-        </div>
+            <div className='englobeVideo'>
+               <div className='video'>
+                
+                </div>
+                <NavRight className="menuDroite"/>
+            </div>
     )
 }
 

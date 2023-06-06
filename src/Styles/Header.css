@@ -1,0 +1,10 @@
+.Hd{
+    display: flex;
+    padding-top:10px;
+}
+.logoType {
+        color:white;
+        font-size: 110px;
+        left: 0px;
+        position:fixed;
+}

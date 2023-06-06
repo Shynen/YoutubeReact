@@ -1,0 +1,28 @@
+.textVidProp1 {
+    color:white;
+    display: grid;
+}
+
+.textVidProp2 {
+    color:white;
+}
+.datevid{
+    margin-left:10px;
+}
+.videoPropose {
+display: inline-flex;
+margin-bottom: 10px;
+float: right;
+margin-right:7%
+}
+img {
+    margin-right:10px;
+    border-radius: 1em;
+    background-position: center;
+    background-size: cover;
+    max-width: 171px;
+    max-height: 105px;
+}
+.titreVid {
+    font-weight:600;
+}

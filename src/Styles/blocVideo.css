@@ -1,0 +1,18 @@
+.video {
+    min-width: 950px;
+    max-width: 60%;
+    height:550px;
+    background-image: url("../Img/snake.JPG");
+    background-position: center;
+    background-size: cover;
+    margin-top:8%;
+}
+.englobeVideo {
+display: flex;
+justify-content: space-between;
+}
+.video {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 12%;
+}
