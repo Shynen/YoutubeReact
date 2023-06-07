@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Styles/vidProp.css'
-import { vidText } from '../lng/fr';
+import '../../../Styles/vidProp.css'
+import { vidText } from '../../../lng/fr';
 const VidProp = (props) => {
     return(
                <div className='videoPropose'>
@@ -18,6 +18,7 @@ const VidProp = (props) => {
                             <span className='vuesVid'>
                                 {props.nbVues}
                             </span>
+                            <span className='point'> {props.dot}</span>
                             <span className='datevid'>
                                 {props.date}
                             </span>

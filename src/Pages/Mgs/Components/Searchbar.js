@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Styles/searchbar.css'
-import { text } from '../lng/fr';
+import '../../../Styles/searchbar.css'
+import { text } from '../../../lng/fr';
 const searchBar = () => {
 return(
 <div class="search_box">

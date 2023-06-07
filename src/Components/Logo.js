@@ -1,6 +1,7 @@
 import React from 'react'
-import '../Styles/Logo.css'
+import '../Styles/logo.css';
 import {ImYoutube2} from "react-icons/im";
+
 const LogoYT = () => {
     return(
     <div className="logoType">

@@ -1,0 +1,44 @@
+.autorSub{
+    color:rgb(172, 170, 170);
+    font-size:16px;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    margin-left:1%;
+}
+.autorVideo {
+    color:white;
+    font-size:20px;
+    margin-left:1%;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    width: max-content;
+}
+.iconAutor {
+    color:white;
+    font-size:45px;
+    cursor:pointer;
+}
+.leftPlusRight {
+    display: flex;
+    justify-content: space-between;
+}
+.packLeft{
+    display: flex;
+}
+.packRight{
+    display: flex;
+}
+.videoTitle {
+    color:white;
+    font-size:26px;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+}
+.infoAutor{
+    display: grid;
+    margin-left:1%;
+    color:white;
+    font-size:40px;
+    cursor:pointer;  
+}
+.infoVidGlobal {
+    background-color: #15361cba;
+    width: 1280px;
+}

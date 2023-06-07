@@ -1,0 +1,19 @@
+.btnDarkU {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #dddddd;
+    cursor: pointer;
+    border-radius: 1em;
+    background-color: rgb(82, 82, 82);
+    font-weight: 600;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    margin-right:10px;
+}
+
+.btnDarkU:hover {
+    background-color: rgba(235, 233, 233, 0.733);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}

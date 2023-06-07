@@ -1,19 +1,6 @@
-.textVidProp1 {
-    color:white;
-    display: grid;
-}
-
-.textVidProp2 {
-    color:white;
-}
 .datevid{
     margin-left:10px;
-}
-.videoPropose {
-display: inline-flex;
-margin-bottom: 10px;
-float: right;
-margin-right:7%
+    font-family:FreeMono, monospace;
 }
 img {
     margin-right:10px;
@@ -23,6 +10,34 @@ img {
     max-width: 171px;
     max-height: 105px;
 }
+.point {
+    font-size: 32px;
+    font-weight: 700;
+}
+.textVidProp1 {
+    color:white;
+    display: grid;
+}
+
+.textVidProp2 {
+    color:white;
+}
 .titreVid {
-    font-weight:600;
+    font-family:Helvetica, sans-serif;
+    font-weight:700;
+}
+
+.videoPropose {
+display: inline-flex;
+margin-bottom: 10px;
+float: right;
+margin-right:7%;
+cursor:pointer;
+}
+.videoPropose:hover {
+    background-color:rgba(247, 241, 241, 0.062);
+}
+
+.vuesVid{
+    font-family: inherit;
 }

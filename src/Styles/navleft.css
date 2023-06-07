@@ -2,6 +2,9 @@ a {
     text-decoration: none;
     color: white;
    }
+   a:hover {
+    background-color:rgba(247, 241, 241, 0.062);
+   }
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
@@ -44,7 +47,6 @@ a {
   
   /* General sidebar styles */
   .bm-menu {
-    background: #15361c;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     overflow: hidden !important; /* important sinon il se met en auto et la barre de difilement apparait */
@@ -59,6 +61,7 @@ a {
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
+    margin-top:5%;
   }
   
   /* Individual item */
@@ -92,6 +95,10 @@ a {
     margin-top:5px;
     font-size: 21px;
 }
+.icone {
+  margin-right:20px;
+}
+
 .logomenu {
   position: absolute;
   font-size: 110px;
@@ -108,7 +115,4 @@ a {
 .separation {
     padding-top :1px;
     padding-bottom:1px;
-}
-.icone {
-  margin-right:20px;
 }

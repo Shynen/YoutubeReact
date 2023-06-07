@@ -53,6 +53,28 @@ const vidText = {
     "date6":"il y a 24 heures",
     "date7":"il y a 8 heures",
     "date8":"il y a 7 minutes",
+    "dot":"."
+}
+const infoVid = {
+    "titreVideo":"Metal Gear Solid 3 Remake Trailer",
+    "autorVideo":"Konami Entertainment",
+    "autorSub":"3M4 d'abonnés"
 }
 
-export  {menu,text,vidText};
+const bouton = {
+    "btnSub":"S'abonner"
+}
+
+const darkBtn = {
+    "nbLike":"2.5 K",
+    "share":"Partager",
+    "dl":"Télecharger",
+    "tripled":"..."
+}
+const classe = {
+    couleur: "colorMenu",
+    couleurHd:"colorHeader"
+}
+
+
+export  {menu,text,vidText,infoVid,bouton,darkBtn,classe};

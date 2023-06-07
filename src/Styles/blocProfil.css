@@ -1,4 +1,15 @@
-.icone {
-    color:white;
-    font-size:40px;
+.englobeIcons{
+    color: white;
+    font-size: 40px;
+    margin-right: 3%;
+    margin-top:1%;
 }
+.iconeHeader{
+margin-right:15px;
+}
+.iconeHeader:hover{
+    background-color:#15361cba;
+    border-radius:1em;
+    cursor:pointer;
+}
+

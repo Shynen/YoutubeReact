@@ -2,4 +2,9 @@
     margin-top:40px;
     display: inline-grid;
     margin-right:3%;
+    background-color: #15361cba;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
 }

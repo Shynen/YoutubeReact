@@ -1,7 +1,7 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu'
-import '../Styles/Nav.css'
-import { menu,text} from '../lng/fr';
+import '../Styles/navleft.css'
+import { menu,text, classe} from '../lng/fr';
 import {ImYoutube2} from "react-icons/im";
 import { FiHome,FiZap,FiCheck,FiPlay,FiRefreshCcw,FiPlayCircle,FiRotateCw,FiSmile,FiArrowUpRight,FiMusic,FiFilm,FiRss,FiActivity,FiTv,FiDribbble,} from "react-icons/fi"
 import {Bs1Circle,Bs2Circle,Bs3Circle,Bs4Circle,Bs5Circle} from "react-icons/bs"
@@ -13,7 +13,7 @@ class Navbar extends React.Component {
 
   render () {
     return (
-      <Menu>
+      <Menu className={classe.couleur} >
         <ImYoutube2 className='logomenu'/>
         <a id="home" className="menu-item" href="/">
           <FiHome className='icone'/>
