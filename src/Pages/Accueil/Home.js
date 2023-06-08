@@ -1,4 +1,4 @@
-import '../../Styles/home.css';
+import '../Accueil/home.css';
 import Header from '../../Components/Header';
 import Navleft from '../../Components/Navleft';
 import VideoCard from './VideoCard';

@@ -1,12 +1,13 @@
 import React from 'react'
-import '../Styles/darkBtn.css';
+import '../Styles/darkBtnS.css';
 
-const DarkBtn = (props) => {
+const DarkBtnS = (props) => {
     return(
         <div className="boutonGlob">
+            {props.iconName}
             <input type="button" className={props.classBtn} value={props.text}>
             </input>
         </div>
     )
 }
-    export default DarkBtn;
+    export default DarkBtnS;

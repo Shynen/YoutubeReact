@@ -21,7 +21,6 @@
     font-size:45px;
     cursor:pointer;
 }
-
 .textVidProp1 {
     color:white;
     display: grid;
@@ -31,8 +30,16 @@
     font-size:17px;
     font-family:"YouTube Sans","Roboto",sans-serif;
     font-weight:700;
+    width: max-content;
 }
-
+.videoProp {
+    display: grid;
+    margin-bottom: 10px;
+    float: right;
+    margin-right:7%;
+    cursor:pointer;
+    height: 300px;
+    }
 .vuesVid{
     font-family: inherit;
 }

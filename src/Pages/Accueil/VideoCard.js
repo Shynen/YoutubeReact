@@ -2,7 +2,7 @@ import React from 'react'
 import '../../Styles/videoCard.css'
 const VideoCard = (props) => {
     return(
-               <div className='videoPropose'>
+               <div className='videoProp'>
                 <img src={props.elsrc}/>
                     <div className='englobeText'>
                         <div className='textVidProp1'>

@@ -4,7 +4,7 @@ import '../Styles/bouton.css';
 const Bouton = (props) => {
     return(
         <div className="boutonGlob">
-            <input type="button" className='boutonU' value={props.text}>
+            <input type="button" className={props.classBtn} value={props.text}>
             </input>
         </div>
     )

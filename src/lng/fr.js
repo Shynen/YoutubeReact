@@ -22,7 +22,7 @@ const menu = {
     "uvid":"Vos vidéos",
     "vid":"À regarder plus...",
     "like":"Vidéos 'J'aime'",
-    "abo1":"Abonnement 1",
+    "abo1":"Page Jungle",
     "abo2":"Abonnement 2",
     "abo3":"Abonnement 3",
     "abo4":"Abonnement 4",
@@ -77,14 +77,17 @@ const infoVid = {
 }
 
 const bouton = {
-    "btnSub":"S'abonner"
+    "btnSub":"S'abonner",
+    "classe1":"boutonU "
 }
 
 const darkBtn = {
     "nbLike":"2.5 K",
     "share":"Partager",
     "dl":"Télecharger",
-    "tripled":"..."
+    "tripled":"...",
+    "classe1":"btnDarkU",
+    "classe2":"btnDarkS"
 }
 const colorT = {
     couleur: "colorMenu",

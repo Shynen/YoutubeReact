@@ -1,4 +1,4 @@
-import '../../Styles/mgs.css';
+import '../Mgs/mgs.css';
 import Navleft from '../../Components/Navleft';
 import BlocVideo from './Components/BlocVideo';
 import Header from '../../Components/Header';
