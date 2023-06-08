@@ -11,7 +11,7 @@ const vidTextHome = {
     "date":"il y a 8 jours",
     "date2":"il y a 2 jours",
     "date3":"il y a 1 mois",
-
+    "dot":"."
 }
 const menu = {
     "home":"Accueil",
@@ -86,10 +86,12 @@ const darkBtn = {
     "dl":"Télecharger",
     "tripled":"..."
 }
-const classe = {
+const colorT = {
     couleur: "colorMenu",
-    couleurHd:"colorHeader"
+    couleurA: "colorMenuH",
+    couleurHd:"colorHeader",
+    couleurHda:"colorHeaderH",
 }
 
 
-export  {vidTextHome,menu,text,vidText,infoVid,bouton,darkBtn,classe};
+export  {vidTextHome,menu,text,vidText,infoVid,bouton,darkBtn,colorT};

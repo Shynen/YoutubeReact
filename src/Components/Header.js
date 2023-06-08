@@ -3,11 +3,10 @@ import '../Styles/header.css'
 import LogoYT from './Logo';
 import Searchbar from '../Pages/Mgs/Components/Searchbar';
 import BlocProfil from '../Pages/Mgs/Components/BlocProfil';
-import {classe} from '../lng/fr';
 
-const Header = () => {
+const Header = (props) => {
     return(
-    <div className={classe.couleurHd}>
+    <div className={props.classe}>
         <LogoYT className="logoType"/>
         <Searchbar className="search"/>
         <BlocProfil className="hdProfil"/>

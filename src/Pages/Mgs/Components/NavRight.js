@@ -2,14 +2,14 @@ import React from 'react'
 import '../../../Styles/navRight.css'
 import { vidText } from '../../../lng/fr';
 import VidProp from './VidProp'
-import vidprop1 from '../Img/vidprop1.jpg'
-import vidprop2 from '../Img/vidprop2.jpg'
-import vidprop3 from '../Img/vidprop3.jpg'
-import vidprop4 from '../Img/vidprop4.jpg'
-import vidprop5 from '../Img/vidprop5.jpg'
-import vidprop6 from '../Img/vidprop6.jpg'
-import vidprop7 from '../Img/vidprop7.jpg'
-import vidprop8 from '../Img/vidprop8.jpg'
+import vidprop1 from '../../../Img/vidprop1.jpg'
+import vidprop2 from '../../../Img/vidprop2.jpg'
+import vidprop3 from '../../../Img/vidprop3.jpg'
+import vidprop4 from '../../../Img/vidprop4.jpg'
+import vidprop5 from '../../../Img/vidprop5.jpg'
+import vidprop6 from '../../../Img/vidprop6.jpg'
+import vidprop7 from '../../../Img/vidprop7.jpg'
+import vidprop8 from '../../../Img/vidprop8.jpg'
 
 const NavRight = () => {
     return(

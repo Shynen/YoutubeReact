@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/videoCard.css'
+import '../../Styles/videoCard.css'
 const VideoCard = (props) => {
     return(
                <div className='videoPropose'>

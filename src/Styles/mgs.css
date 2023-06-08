@@ -1,9 +1,17 @@
-:root{
-    --bg-gn: #153610;
+
+  .colorMenu {
+    background-color: #153610;
   }
-Mgs{
+  .colorHeader {
+    background-color: #15361cba;
+    display: flex;
+  }
+  Mgs{
     display:inline-flex;
   }
-  body {
-    background-image:url('https://milesandlove.com/system/attachments/7436/xxlarge/quand-la-nature-envahit-tout-la-reunion.jpg?1556621832');
+.myVid{
+  width: 100vw;
+  height:60vw;
+  background-repeat: no-repeat;
+  background-image:url('https://milesandlove.com/system/attachments/7436/xxlarge/quand-la-nature-envahit-tout-la-reunion.jpg?1556621832');
   }

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/darkBtn.css';
+import '../Styles/darkBtn.css';
 
 const DarkBtn = (props) => {
     return(

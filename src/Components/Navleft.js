@@ -1,24 +1,21 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu'
 import '../Styles/navleft.css'
-import { menu,text, classe} from '../lng/fr';
+import { menu,text} from '../lng/fr';
 import {ImYoutube2} from "react-icons/im";
 import { FiHome,FiZap,FiCheck,FiPlay,FiRefreshCcw,FiPlayCircle,FiRotateCw,FiSmile,FiArrowUpRight,FiMusic,FiFilm,FiRss,FiActivity,FiTv,FiDribbble,} from "react-icons/fi"
 import {Bs1Circle,Bs2Circle,Bs3Circle,Bs4Circle,Bs5Circle} from "react-icons/bs"
+import {Link} from "react-router-dom";
 
-class Navbar extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-  }
+function Navleft (props) { 
 
-  render () {
     return (
-      <Menu className={classe.couleur} >
+      <Menu className={props.couleur} >
         <ImYoutube2 className='logomenu'/>
-        <a id="home" className="menu-item" href="/">
+        <Link to="/" id="home" className="menu-item">
           <FiHome className='icone'/>
           {menu.home}
-        </a>
+        </Link>
         <a id="short" className="menu-item" href="/about">
           <FiZap className='icone'/>
           {menu.short}
@@ -36,10 +33,10 @@ class Navbar extends React.Component {
           <FiRefreshCcw className='icone'/>
           {menu.hist}
         </a>
-        <a id="urvids" className="menu-item" href="/contact">
+        <Link to="/page"  id="urvids" className="menu-item" href="/contact">
           <FiPlayCircle className='icone'/>
           {menu.uvid}
-        </a>
+          </Link>
         <a id="later" className="menu-item" href="/contact">
           <FiRotateCw className='icone'/>
           {menu.vid}
@@ -105,5 +102,4 @@ class Navbar extends React.Component {
       </Menu>
     );
   }
-}
-export default Navbar;
+export default Navleft;
