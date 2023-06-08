@@ -1,5 +1,38 @@
-.videoT {
-    width:400px;
-    height:400px;
-    background-color:aqua;
+.autorSub{
+    color:rgb(172, 170, 170);
+    font-size:16px;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    margin-left:1%;
+}
+
+.autorVid {
+    color:white;
+    font-size:18px;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    width: max-content;
+    cursor:pointer;  
+}
+
+.datevid{
+    margin-left:10px;
+}
+.iconAutor {
+    color:white;
+    font-size:45px;
+    cursor:pointer;
+}
+
+.textVidProp1 {
+    color:white;
+    display: grid;
+}
+.titreVid{
+    color:white;
+    font-size:17px;
+    font-family:"YouTube Sans","Roboto",sans-serif;
+    font-weight:700;
+}
+
+.vuesVid{
+    font-family: inherit;
 }

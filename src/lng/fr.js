@@ -1,3 +1,18 @@
+const vidTextHome = {
+    "titreVid":"QUE SONT-ILS DEVENUS ? (version française)",
+    "titreVid2":"I Used 'SonicFox's 5'Step Method' to Learn Street Fighter 6",
+    "titreVid3":"[MS] LE DECK ULTRA GHOST",
+    "autVid" :"SEB",
+    "autVid2" :"AndyLO2",
+    "autVid3" :"TheFishou",
+    "nbVues":"54 K vues",
+    "nbVues2":"152 K vues",
+    "nbVues3":"27 K vues",
+    "date":"il y a 8 jours",
+    "date2":"il y a 2 jours",
+    "date3":"il y a 1 mois",
+
+}
 const menu = {
     "home":"Accueil",
     "short":"Shorts",
@@ -77,4 +92,4 @@ const classe = {
 }
 
 
-export  {menu,text,vidText,infoVid,bouton,darkBtn,classe};
+export  {vidTextHome,menu,text,vidText,infoVid,bouton,darkBtn,classe};
